@@ -2,12 +2,12 @@ pipeline {
     agent any
 
 	tools {
-		maven 'M2_HOME'
+		maven 'MAVEN_HOME'
 	}
-//
-//	environment {
-//		M2_HOME = "/home/siddharth/Destros/Maven/apache-maven-3.6.3/bin"
-//	}
+
+	environment {
+		MAVEN_HOME = "/home/siddharth/Destros/Maven/apache-maven-3.6.3/bin"
+	}
 
     stages {
 		stage('Clone-Repo') {
@@ -30,9 +30,9 @@ pipeline {
 		}
 
 	
-		stage('Deployment') {
-			steps {
-				sh 'sshpass -p "admin" scp target/gamutgurus.war admin@172.17.0.4:/home/admin/'
+		// stage('Deployment') {
+		// 	steps {
+		// 		sh 'sshpass -p "admin" scp target/gamutgurus.war admin@172.17.0.4:/home/admin/'
 				
 	    	}
 		}
