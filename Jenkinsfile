@@ -6,7 +6,7 @@ pipeline {
 	}
 
 	environment {
-		MAVEN_HOME = "/home/siddharth/Destros/Maven/apache-maven-3.6.3/bin"
+		MAVEN_HOME = "E:\destro\apache-maven-3.8.6\bin"
 	}
 
     stages {
