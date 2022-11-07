@@ -5,9 +5,9 @@ pipeline {
 		maven 'M2_HOME'
 	}
 
-	environment {
-		MAVEN_HOME = "E:\destro\Maven\apache-maven-3.6.3\bin"
-	}
+	// environment {
+	// 	MAVEN_HOME = "E:\destro\Maven\apache-maven-3.6.3\bin"
+	// }
 
     stages {
 		stage('Clone-Repo') {
