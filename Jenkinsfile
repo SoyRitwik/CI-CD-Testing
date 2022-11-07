@@ -2,11 +2,11 @@ pipeline {
     agent any
 
 	tools {
-		maven 'MAVEN_HOME'
+		maven 'M2_HOME'
 	}
 
 	environment {
-		MAVEN_HOME = "E:\destro\apache-maven-3.8.6\bin"
+		MAVEN_HOME = "E:\destro\Maven\apache-maven-3.6.3\bin"
 	}
 
     stages {
@@ -30,9 +30,9 @@ pipeline {
 		}
 
 	
-		// stage('Deployment') {
-		// 	steps {
-		// 		sh 'sshpass -p "admin" scp target/gamutgurus.war admin@172.17.0.4:/home/admin/'
+		stage('Deployment') {
+			steps {
+				echo "hellow_world"
 				
 	    	}
 		}
