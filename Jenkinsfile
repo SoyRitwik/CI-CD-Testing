@@ -5,9 +5,10 @@ pipeline {
 		maven 'M2_HOME'
 	}
 
-	// environment {
-	// 	MAVEN_HOME = "E:\destro\Maven\apache-maven-3.6.3\bin"
-	//  JAVA_HOME=
+	// environment 
+	// {
+	//   MAVEN_HOME = "D:\Work\apache-maven-3.8.6\bin"
+	//   JAVA_HOME = "D:\Work\jdk-17.0.5\bin"
 	// }
 
     stages {
