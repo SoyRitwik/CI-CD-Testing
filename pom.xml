@@ -38,7 +38,7 @@
 	<build>
  		<plugins>
 		    <plugin>
-       		    <artifactId>maven-war-plugin</artifactId>
+       		    <groupid>maven-war-plugin</groupid>
       			<version>3.8.6</version>
        			<configuration>
         			<failOnMissingWebXml>false</failOnMissingWebXml>
