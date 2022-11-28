@@ -38,7 +38,7 @@
 	<build>
  		<plugins>
 		    <plugin>
-       		    <groupid>maven-war-plugin</groupid>
+       		    <artifactId>gamutkart</artifactId>
       			<version>3.8.6</version>
        			<configuration>
         			<failOnMissingWebXml>false</failOnMissingWebXml>
